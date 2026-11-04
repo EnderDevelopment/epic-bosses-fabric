@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "bossmod",
+  "version": "${version}",
+  "name": "Boss Mod",
+  "description": "A mod that adds bosses to Minecraft.",
+  "authors": ["EnderDevelopment"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.bossmod.BossMod"
+    ]
+  },
+  "mixins": [
+    "bossmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.21.11",
+    "fabric-api": "*"
+  }
+}

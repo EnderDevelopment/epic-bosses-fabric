@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.example.bossmod.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "BossModMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
